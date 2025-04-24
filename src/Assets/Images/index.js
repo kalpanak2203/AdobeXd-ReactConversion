@@ -15,6 +15,14 @@ export default {
     RSBAvatar1: require("./RSB-avatar1.png"),
     RSBAvatar2: require("./RSB-avatar2.png"),
     RSBAvatar3: require("./RSB-avatar3.png"),
-    RSBAvatar4: require("./RSB-avatar4.png")
+    RSBAvatar4: require("./RSB-avatar4.png"),
+
+    Image40: require("./Image40.png"),
+    Image39: require("./Image39.png"),
+    Image38: require("./Image38.png"),
+    Image46: require("./Image46.png"),
+
+
+
 
 }
