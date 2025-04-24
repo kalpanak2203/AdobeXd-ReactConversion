@@ -15,7 +15,11 @@ const dummyPosts = [
     image: Images.PostCardImg1,
     avatar: Images.AvatarPC1,
     username: "Lara Leones",
-    handle: "@thewallart"
+    handle: "@thewallart",
+    likes: " 9.8 k",
+    comments: " 8.6 k",
+    shares: " 7.2 k"
+
 
   },
   {
@@ -25,7 +29,10 @@ const dummyPosts = [
     image: Images.PostCardImg2,
     avatar: Images.AvatarPC2,
     username: "Thomas J",
-    handle: "@thecustomcreator"
+    handle: "@thecustomcreator",
+    likes: " 9.8 k",
+    comments: " 8.6 k",
+    shares: " 7.2 k"
   }
 ];
 

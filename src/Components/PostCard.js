@@ -24,9 +24,9 @@ const PostCard = ({ post }) => {
       <div className='line'></div>
 
       <div className="reactions">
-        <div className="reactionContainer"><AiOutlineHeart /> 9.8 k{post.likes}</div>
-        <div><AiOutlineComment /> 8.6 k{post.comments}</div>
-        <div><AiOutlineShareAlt /> 7.2 k{post.shares}</div>
+        <div className="reactionContainer"><AiOutlineHeart />{post.likes}</div>
+        <div className="reactionContainer"><AiOutlineComment />{post.comments}</div>
+        <div className="reactionContainer"><AiOutlineShareAlt />{post.shares}</div>
       </div>
     </div>
   );

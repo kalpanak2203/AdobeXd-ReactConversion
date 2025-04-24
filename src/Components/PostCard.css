@@ -65,7 +65,7 @@
 }
 
 .line {
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 20px;
   border-top: 1px solid #ddd;
 
@@ -76,6 +76,12 @@
   justify-content: space-around;
   margin-top: 5px;
   color: #070707;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
+}
+
+.reactionContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px; 
 }
