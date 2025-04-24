@@ -1,38 +1,43 @@
 import React from 'react';
 import './RightSidebar.css';
+import Images from '../Assets/Images';
 
 const users = [
   {
     name: 'Thomas Edward',
-    handle: '@thewallartyou',
-    background: 'https://i.imgur.com/lWvE4ks.jpeg',
-    avatar: 'https://randomuser.me/api/portraits/men/45.jpg'
+    handle: '@thewildwithyou',
+    background: Images.RightSideBar1,
+    avatar: Images.RSBAvatar1
   },
   {
     name: 'Chris Doe',
-    handle: '@thewallartyou',
-    background: 'https://i.imgur.com/b40sUCP.jpeg',
-    avatar: 'https://randomuser.me/api/portraits/men/44.jpg'
+    handle: '@thewildwithyou',
+    background: Images.RightSideBar2,
+    avatar: Images.RSBAvatar2
   },
   {
     name: 'Emilie Jones',
-    handle: '@thewallartyou',
-    background: 'https://i.imgur.com/LsQeXl2.jpeg',
-    avatar: 'https://randomuser.me/api/portraits/women/46.jpg'
+    handle: '@thewildwithyou',
+    background: Images.RightSideBar3,
+    avatar: Images.RSBAvatar3
   },
   {
     name: 'Jessica Williams',
-    handle: '@thewallartyou',
-    background: 'https://i.imgur.com/j53VSpq.jpeg',
-    avatar: 'https://randomuser.me/api/portraits/women/43.jpg'
+    handle: '@thewildwithyou',
+    background: Images.RightSideBar4,
+    avatar: Images.RSBAvatar4
+  },
+  {
+    name: 'Michela Stone',
+    handle: '@thewildwithyou',
+    background: Images.RightSideBar5,
+    avatar: Images.RSBAvatar4
   }
 ];
 
 const RightSidebar = () => {
   return (
     <div className="right-sidebar">
-      <button className="seller-btn">Become a Seller</button>
-
       <div className="tabs">
         <button className="active">Artists</button>
         <button>Photographers</button>
@@ -42,7 +47,10 @@ const RightSidebar = () => {
         {users.map((user, index) => (
           <div className="user-card" key={index} style={{ backgroundImage: `url(${user.background})` }}>
             <div className="user-details">
-              <img src={user.avatar} alt="user" />
+              <div>
+                <div className='AvatarOnline'></div>
+              <img src={user.avatar} alt="user" ></img>
+              </div>
               <div>
                 <h4>{user.name}</h4>
                 <p>{user.handle}</p>
@@ -53,9 +61,9 @@ const RightSidebar = () => {
       </div>
 
       <footer className="footer">
-        <a href="#">Privacy</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Cookie Notice</a>
+        <a>Privacy</a>
+        <a>Terms of Service</a>
+        <a>Cookie Notice</a>
       </footer>
     </div>
   );

@@ -1,19 +1,23 @@
 import React from 'react';
 import './Topbar.css';
-import { FiSettings } from 'react-icons/fi'; // for filter icon
+import { FiFilter, FiSearch} from 'react-icons/fi'; // for filter icon
 
 const Topbar = () => {
   return (
     <div className="topbar">
-      <input
+      <div className="logo">LOGO</div>
+      <div className="search-bar-wrapper" >
+        <FiSearch size={16} className="search-icon"/>
+      <input 
         type="text"
         className="search-input"
         placeholder="Search here..."
       />
       <button className="filter-btn">
-        <FiSettings size={18} />
+        <FiFilter size={18} />
         Filters
       </button>
+      </div>
       <button className="seller-btn">Become a Seller</button>
     </div>
   );

@@ -1,31 +1,34 @@
 import React from 'react';
-import './Sidebar.css'; // we'll create this for styling
+import './Sidebar.css';
+import { FiHome, FiBell, FiHeart, FiMessageCircle, FiCreditCard, FiUser, FiSettings, FiLogOut } from 'react-icons/fi';
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <div className="sidebar-logo">
-        LOGO
+      
+      <div>
+        <div>
+      <nav className="menu">
+        <ul>
+          <li className="active"><FiHome /> Home</li>
+          <li><FiBell /> Notifications</li>
+          <li><FiHeart /> Shop</li>
+          <li><FiMessageCircle /> Conversation</li>
+          <li><FiCreditCard /> Wallet</li>
+          <li><FiUser /> Subscription</li>
+          <li><FiUser /> My Profile</li>
+          <li><FiSettings /> Settings</li>
+        </ul>
+      </nav>
       </div>
-
-      <ul className="sidebar-menu">
-        <li className="active">Home</li>
-        <li>Notifications</li>
-        <li>Shop</li>
-        <li>Conversation</li>
-        <li>Wallet</li>
-        <li>Subscription</li>
-        <li>My Profile</li>
-        <li>Settings</li>
-      </ul>
-
-      <div className="sidebar-bottom">
-        <button className="logout-btn">Log out</button>
-        <p className="footer-text">
-          2022©logo name <br />
-          Developed by Ivan Infotech
-        </p>
+      <div className="bottom">
+        <div className="logout"><FiLogOut /> Log out</div>
       </div>
+      </div>
+      <div className="footer-meta">
+          <span>2022©logo-name </span>
+          <span> Developed by Ivan Infotech</span>
+        </div>
     </div>
   );
 };
