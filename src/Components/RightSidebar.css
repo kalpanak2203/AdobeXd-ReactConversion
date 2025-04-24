@@ -32,7 +32,6 @@
 
 .tabs .active {
   color: #111;
-  /* border-bottom: 2px solid #000; */
 }
 
 .user-cards {
@@ -70,8 +69,7 @@
   width: 34px;
   height: 34px;
   border-radius: 10%;
-  /* border: 2px solid white; */
-  /* background: #0EC297 0% 0% no-repeat padding-box; */
+  
 }
 
 .AvatarOnline {
@@ -103,7 +101,6 @@
   color: gray;
   display: flex;
   flex-direction: row;
-  /* gap: 4px; */
   padding-top: 20px;
   border-top: 1px solid #ddd;
   justify-content: space-between;

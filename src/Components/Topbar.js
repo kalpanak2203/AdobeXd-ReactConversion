@@ -1,6 +1,6 @@
 import React from 'react';
 import './Topbar.css';
-import { FiFilter, FiSearch} from 'react-icons/fi'; // for filter icon
+import { FiFilter, FiSearch} from 'react-icons/fi'; 
 
 const Topbar = () => {
   return (

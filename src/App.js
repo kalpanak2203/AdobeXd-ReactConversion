@@ -27,18 +27,6 @@ const dummyPosts = [
     username: "Thomas J",
     handle: "@thecustomcreator"
   }
-  // {
-  //   id: 3,
-  //   title: 'Post 3',
-  //   content: 'Content for post 3.',
-  //   image: Images.PostCardImg2,
-  //   avatar: Images.AvatarPC2  },
-  // {
-  //   id: 4,
-  //   title: 'Post 4',
-  //   content: 'Content for post 4.',
-  //   image: Images.PostCardImg2,
-  //   avatar: Images.AvatarPC2  },
 ];
 
 function App() {
